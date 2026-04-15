@@ -87,7 +87,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // 7. Load and render data (placeholder — expanded in Prompt 9)
   loadPublications();
   loadProjects();
 });
@@ -113,7 +112,7 @@ function renderPublications(data) {
     const items = data[key] || [];
 
     if (!items.length) {
-      panel.innerHTML = '<p class="placeholder-text">No entries yet.</p>';
+      panel.innerHTML = '<p class="status-text">No publications are available at this time.</p>';
       return;
     }
 

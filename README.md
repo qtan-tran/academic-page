@@ -6,7 +6,7 @@ Academic profile website for Quoc-Tan Tran, Open Science Researcher and Postdoc 
 
 ## Preview
 
-_Screenshot coming soon_
+A clean academic profile homepage that highlights publications, projects, and open science work.
 
 ## Tech Stack
 

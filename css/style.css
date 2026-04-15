@@ -3,21 +3,21 @@
    ═══════════════════════════════════════════════════ */
 :root {
   /* Brand colors */
-  --color-bg:          #F3E3D5;   /* warm cream */
-  --color-surface:     #FDF6F0;   /* slightly lighter surface */
-  --color-surface-alt: #EDD9C8;   /* muted warm — alt sections */
-  --color-heading:     #976A51;   /* terracotta */
-  --color-text:        #624C48;   /* deep warm brown */
-  --color-accent:      #8F7781;   /* muted mauve — links/accents */
-  --color-dark:        #544547;   /* darkest element */
-  --color-border:      rgba(150, 106, 81, 0.18);
-  --color-border-hover:rgba(150, 106, 81, 0.4);
+  --color-bg:            #F6F1EB;   /* soft oat */
+  --color-surface:       #FCFAF7;   /* clean warm white */
+  --color-surface-alt:   #EEE7DF;   /* pale stone */
+  --color-heading:       #2F2926;   /* espresso-charcoal */
+  --color-text:          #4E4641;   /* warm graphite */
+  --color-accent:        #6D8A86;   /* muted sage-teal */
+  --color-dark:          #221D1A;   /* dark anchor */
+  --color-border:        rgba(47, 41, 38, 0.10);
+  --color-border-hover:  rgba(47, 41, 38, 0.22);
 
   /* Button */
-  --color-btn-primary:    #976A51;
-  --color-btn-primary-fg: #FDF6F0;
-  --color-btn-secondary:  transparent;
-  --color-btn-secondary-fg: #976A51;
+  --color-btn-primary:   #2F2926;
+  --color-btn-primary-fg:#FCFAF7;
+  --color-btn-secondary: transparent;
+  --color-btn-secondary-fg:#2F2926;
 
   /* Typography */
   --font-sans:  'Inter', system-ui, sans-serif;
@@ -38,18 +38,19 @@
 
 /* Dark mode overrides */
 [data-theme="dark"] {
-  --color-bg:          #2C2220;
-  --color-surface:     #362926;
-  --color-surface-alt: #3E302C;
-  --color-heading:     #C99A80;
-  --color-text:        #D9C4BB;
-  --color-accent:      #B09AA6;
-  --color-dark:        #E8D6CE;
-  --color-border:      rgba(201, 154, 128, 0.15);
-  --color-border-hover:rgba(201, 154, 128, 0.4);
-  --color-btn-primary:    #C99A80;
-  --color-btn-primary-fg: #2C2220;
-  --color-btn-secondary-fg: #C99A80;
+  --color-bg:            #151311;
+  --color-surface:       #1D1A18;
+  --color-surface-alt:   #26221F;
+  --color-heading:       #F3EDE6;
+  --color-text:          #C9BFB5;
+  --color-accent:        #8FB1AB;
+  --color-dark:          #F7F2EC;
+  --color-border:        rgba(243, 237, 230, 0.10);
+  --color-border-hover:  rgba(243, 237, 230, 0.22);
+
+  --color-btn-primary:   #F3EDE6;
+  --color-btn-primary-fg:#151311;
+  --color-btn-secondary-fg:#F3EDE6;
 }
 
 /* ═══════════════════════════════════════════════════
@@ -293,7 +294,7 @@ ul { list-style: none; }
 /* Photo column */
 .hero-photo { display: flex; flex-direction: column; gap: 24px; }
 
-.photo-placeholder {
+.hero-avatar {
   width: 100%;
   aspect-ratio: 1;
   border-radius: var(--radius-lg);
@@ -637,7 +638,7 @@ ul { list-style: none; }
 .footer-copy a { color: rgba(253, 246, 240, 0.6); }
 .footer-copy a:hover { color: var(--color-surface); }
 
-.placeholder-text {
+.status-text {
   color: var(--color-accent);
   font-style: italic;
   font-size: 0.9rem;
@@ -673,7 +674,7 @@ ul { list-style: none; }
   }
 
   .hero-photo { order: -1; }
-  .photo-placeholder { max-width: 200px; margin-inline: auto; }
+  .hero-avatar { max-width: 200px; margin-inline: auto; }
 
   .project-card.featured { grid-column: span 1; }
 
