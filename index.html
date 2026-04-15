@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Quoc-Tan Tran — Open Science Researcher and Postdoc at Bielefeld University. Research in open infrastructure, sociology of knowledge, and philosophy of science." />
+  <meta name="author" content="Quoc-Tan Tran" />
+  <title>Quoc-Tan Tran | Open Science Researcher</title>
+
+  <!-- Google Fonts: Inter (body) + Merriweather (display) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body data-theme="light">
+
+  <!-- ═══════════════════════════════
+       NAVIGATION
+  ═══════════════════════════════ -->
+  <header class="site-header" role="banner">
+    <nav class="nav-container" aria-label="Main navigation">
+      <a class="nav-logo" href="#home" aria-label="Home">QT Tran</a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle navigation menu">
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu" role="list">
+        <li><a class="nav-link active" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#publications">Publications</a></li>
+        <li><a class="nav-link" href="#projects">Projects &amp; Repos</a></li>
+      </ul>
+
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <span class="theme-icon" aria-hidden="true">☽</span>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ═══════════════════════════════
+         SECTION 1: HOME / ABOUT
+    ═══════════════════════════════ -->
+    <section id="home" class="section hero-section" aria-labelledby="hero-name">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-text">
+            <p class="hero-eyebrow">Open Science · Sociology of Knowledge · Philosophy of Science</p>
+            <h1 id="hero-name" class="hero-name">Quoc-Tan Tran</h1>
+            <p class="hero-title">Open Science Researcher | Postdoc, Bielefeld University</p>
+            <p class="hero-location">
+              <span aria-hidden="true">📍</span> Hamburg &amp; Bielefeld, Germany
+            </p>
+            <p class="hero-bio">
+              <!-- Placeholder bio — replace with real content -->
+              I am a postdoctoral researcher at Bielefeld University working at the intersection of 
+              <strong>open infrastructure</strong>, the <strong>sociology of knowledge</strong>, and 
+              the <strong>philosophy of science</strong>. My work examines how scholarly communication 
+              systems shape epistemic communities, and how open, community-governed infrastructure 
+              can support more equitable knowledge production.
+            </p>
+            <p class="hero-bio">
+              Beyond research, I am interested in <strong>AI/ML agents</strong> and their role in 
+              academic publishing workflows, as well as <strong>literature and literary criticism</strong> 
+              as lenses for understanding knowledge practices.
+            </p>
+            <div class="hero-actions">
+              <a href="#publications" class="btn btn-primary">View Publications</a>
+              <a href="#projects" class="btn btn-secondary">Explore Projects</a>
+            </div>
+          </div>
+
+          <div class="hero-photo" aria-label="Profile photo placeholder">
+            <div class="photo-placeholder" role="img" aria-label="Photo of Quoc-Tan Tran — placeholder">
+              <span class="photo-initials" aria-hidden="true">QT</span>
+            </div>
+            <div class="hero-meta">
+              <div class="meta-item">
+                <span class="meta-label">Affiliation</span>
+                <span class="meta-value">Bielefeld University</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Location</span>
+                <span class="meta-value">Hamburg / Bielefeld, DE</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Focus</span>
+                <span class="meta-value">Open Infrastructure</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════
+         SECTION 2: PUBLICATIONS
+    ═══════════════════════════════ -->
+    <section id="publications" class="section" aria-labelledby="publications-heading">
+      <div class="container">
+        <h2 id="publications-heading" class="section-heading">Publications</h2>
+        <p class="section-subheading">Selected scholarly outputs across books, articles, and conference proceedings.</p>
+
+        <!-- Tab bar -->
+        <div class="pub-tabs" role="tablist" aria-label="Publication categories">
+          <button class="pub-tab active" role="tab" aria-selected="true"  aria-controls="tab-books"    id="btn-books">Books</button>
+          <button class="pub-tab"        role="tab" aria-selected="false" aria-controls="tab-articles" id="btn-articles">Journal Articles</button>
+          <button class="pub-tab"        role="tab" aria-selected="false" aria-controls="tab-conf"     id="btn-conf">Conference Papers</button>
+        </div>
+
+        <!-- Tab panels (populated by JS from JSON) -->
+        <div id="tab-books"    class="pub-panel" role="tabpanel" aria-labelledby="btn-books">
+          <p class="placeholder-text">Loading publications…</p>
+        </div>
+        <div id="tab-articles" class="pub-panel hidden" role="tabpanel" aria-labelledby="btn-articles">
+          <p class="placeholder-text">Loading publications…</p>
+        </div>
+        <div id="tab-conf"     class="pub-panel hidden" role="tabpanel" aria-labelledby="btn-conf">
+          <p class="placeholder-text">Loading publications…</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════
+         SECTION 3: PROJECTS & REPOS
+    ═══════════════════════════════ -->
+    <section id="projects" class="section alt-section" aria-labelledby="projects-heading">
+      <div class="container">
+        <h2 id="projects-heading" class="section-heading">Projects &amp; Repos</h2>
+        <p class="section-subheading">Open-source tools and research software at the frontier of open infrastructure and AI.</p>
+
+        <div class="projects-grid" id="projectsGrid">
+          <!-- Cards populated by JS -->
+          <p class="placeholder-text">Loading projects…</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════
+       FOOTER
+  ═══════════════════════════════ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <p class="footer-name">Quoc-Tan Tran</p>
+        <p class="footer-tagline">Open Science Researcher · Bielefeld University</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="mailto:q.tran@uni-bielefeld.de" class="footer-link" aria-label="Send email">Email</a>
+        <a href="https://github.com/" class="footer-link" target="_blank" rel="noopener" aria-label="GitHub profile">GitHub</a>
+        <a href="https://linkedin.com/" class="footer-link" target="_blank" rel="noopener" aria-label="LinkedIn profile">LinkedIn</a>
+        <a href="https://orcid.org/" class="footer-link" target="_blank" rel="noopener" aria-label="ORCID profile">ORCID</a>
+      </div>
+
+      <div class="footer-cv">
+        <a href="assets/cv-quoc-tan-tran.pdf" class="btn btn-secondary btn-sm" download aria-label="Download CV as PDF">
+          Download CV
+        </a>
+      </div>
+    </div>
+    <div class="footer-copy">
+      <p>&copy; <span id="year"></span> Quoc-Tan Tran. Content licensed under 
+        <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

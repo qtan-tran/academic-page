@@ -1,0 +1,48 @@
+{
+  "books": [
+    {
+      "type": "Book",
+      "title": "Open Infrastructure and the Sociology of Knowledge: Rethinking Scholarly Communication",
+      "authors": "Tran, Q.-T.",
+      "venue": "Publisher Name",
+      "year": "2024",
+      "doi": "https://doi.org/10.xxxx/placeholder",
+      "pdf": null,
+      "abstract": "This book examines how scholarly infrastructure shapes epistemic communities and explores pathways toward community-governed, open alternatives to commercial publishing platforms."
+    }
+  ],
+  "articles": [
+    {
+      "type": "Journal Article",
+      "title": "Epistemic Justice and Open Access: A Philosophical Analysis",
+      "authors": "Tran, Q.-T. & Lastname, A.",
+      "venue": "Journal of the Philosophy of Science",
+      "year": "2023",
+      "doi": "https://doi.org/10.xxxx/placeholder",
+      "pdf": null,
+      "abstract": "This article analyzes open-access publishing through the lens of epistemic justice, arguing that paywalled scholarship systematically disadvantages researchers in the Global South."
+    },
+    {
+      "type": "Journal Article",
+      "title": "AI Agents in Academic Workflows: Opportunities and Epistemic Risks",
+      "authors": "Tran, Q.-T.",
+      "venue": "Science and Technology Studies",
+      "year": "2024",
+      "doi": null,
+      "pdf": null,
+      "abstract": "An examination of how autonomous AI agents are beginning to mediate knowledge production workflows and the implications for reproducibility and epistemic accountability."
+    }
+  ],
+  "conf": [
+    {
+      "type": "Conference Paper",
+      "title": "Towards a FAIR Metadata Framework for Open Infrastructure",
+      "authors": "Tran, Q.-T. & Lastname, B.",
+      "venue": "OpenSym 2023, Berlin",
+      "year": "2023",
+      "doi": "https://doi.org/10.xxxx/placeholder",
+      "pdf": null,
+      "abstract": "We propose a metadata validation framework grounded in FAIR principles, designed for federated open-access repositories."
+    }
+  ]
+}
