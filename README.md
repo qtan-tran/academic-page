@@ -1,6 +1,6 @@
 # Open Science Profile
 
-Academic profile website for Quoc-Tan Tran, Open Science Researcher and Postdoc at Bielefeld University. Built with pure HTML5/CSS3/JS and deployed on Vercel.
+Academic profile website. Built with pure HTML5/CSS3/JS and deployed on Vercel.
 
 ![Vercel](https://img.shields.io/badge/Vercel-Deployed-black)
 
