@@ -6,7 +6,7 @@ Academic profile website. Built with pure HTML5/CSS3/JS and deployed on Vercel.
 
 ## Preview
 
-A clean academic profile homepage that highlights publications, projects, and open science work.
+A clean academic profile homepage that highlights publications, projects, and selected open science work.
 
 ## Tech Stack
 
