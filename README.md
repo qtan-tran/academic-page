@@ -1,6 +1,6 @@
 # Open Science Profile
 
-Academic profile website. Built with pure HTML5/CSS3/JS and deployed on Vercel.
+An academic profile website. Built with pure HTML5/CSS3/JS and deployed on Vercel.
 
 ![Vercel](https://img.shields.io/badge/Vercel-Deployed-black)
 
