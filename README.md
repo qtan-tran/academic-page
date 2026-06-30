@@ -25,7 +25,7 @@ cd open-science-profile
 
 Open `index.html` with Live Server in VS Code.
 
-## Project structure
+## Project architecture
 
 ```
 open-science-profile/
