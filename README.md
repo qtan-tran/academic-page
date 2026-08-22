@@ -48,7 +48,7 @@ open-science-profile/
 ## Customization
 
 - Edit `data/publications.json` to update the publications list.
-- Update the `projects` array in `js/script.js` to add or change project cards.
+- Update the `projects` array in `js/script.js` to add or change the project cards.
 
 ## License
 
