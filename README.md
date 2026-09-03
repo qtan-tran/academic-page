@@ -14,7 +14,7 @@ An academic profile homepage that highlights publications, projects, and selecte
 - CSS3 (custom properties, grid, flexbox)
 - Vanilla JS (ES6+)
 - Google Fonts (Inter + Merriweather)
-- Vercel (hosting)
+- Vercel (for hosting)
 
 ## Local development
 
